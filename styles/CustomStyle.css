@@ -1,0 +1,231 @@
+html body {
+    font-family: 'Prompt', sans-serif;
+}
+
+.modal-footer-custom {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    padding: .75rem;
+    border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: calc(.3rem - 1px);
+    border-bottom-left-radius: calc(.3rem - 1px);
+}
+
+.modal-btn-cust {
+    color: #000000;
+    background-color: #fafafa;
+    border: 1px solid #dadcdd;
+    border-radius: 3px;
+    padding: 5px 20px 5px 20px;
+    width: 7rem;
+}
+
+.modal-btn-close {
+    color: #000000;
+    background-color: #fafafa;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+@media all and (min-width: 200px) {
+    .Login {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .Login form {
+      margin: auto;
+      max-width: 400px;
+      padding: 1.5rem;
+      border-radius: 20px;
+      border: 3px double #b4b5b6;
+    }
+
+    .Login form div{
+        margin-top: 0.5rem;
+        max-width: 400px;
+        align-items: center;
+      }
+
+    .Login form div button {
+        margin-top: 1rem;
+        width: 100%;
+        justify-content: center;
+    }
+ 
+    .PageDefault {
+        margin: 4rem;
+        border-color: rgb(232, 235, 234);
+        border-style: double;
+        border-radius: 20px;
+    }
+
+    .MainPage {
+        margin: 0 auto;
+    }
+
+    .MainPage form {
+        margin: auto;
+        max-width: 90%;
+        padding: 1rem;
+        border-radius: 20px;
+        border: 3px double #b4b5b6;
+    }
+  
+    .MainPage form div{
+        margin-top: 0.2rem;
+        max-width: 100%;
+        align-items: center;
+    }
+  
+    .MainPage form div button {
+        margin-top: 0.5rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .MainPage form div input {
+        /* margin-top: 0.1rem; */
+        width: 100%;
+        justify-content: center;
+        font-size: inherit;
+        
+    }
+
+    .MainPage form div label {
+        float: right;
+    }
+
+    .MainPage form div input .ant-input {
+        color: #030303;
+    }
+
+    .MainPage-label-left {
+        float: left !important; 
+    }
+
+    .ChangePass div {
+        margin: 0 auto;
+        max-width: 700px;
+    }
+
+    .rule-head-label {
+        color: #030303;
+        /* margin-left: 2rem; */
+    }
+
+    .rule-detail-label1 {
+        color: #030303;
+        margin-left: 2rem;
+    }
+
+    .rule-detail-label2 {
+        color: #eb0a0a;
+        margin-left: 2rem;
+    }
+
+    .rule-detail-label3 {
+        color: #eb0a0a;
+    }
+
+    .rule-detail-label4 {
+        color: #eb0a0a;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .rule-detail-label5 {
+        color: #53f00b;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .rule-detail-label6 {
+        color: #eb0a0a;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .MainHeader {
+        margin: 0 auto;
+        margin: auto;
+        max-width: 1100px;
+        padding: 1rem;
+    }
+
+    .red-border {
+        border-color: red;
+    }
+
+    .rs-picker-toggle-value {
+        color: #575757 !important;
+    }
+
+    .rs-picker-toggle .rs-picker-toggle-placeholder {
+        color: #c3c3c6 !important;
+        font-size: var(--bs-body-font-size) !important;
+    }
+
+    .rs-picker-toggle-value {
+        font-size: var(--bs-body-font-size) !important;
+    }
+    
+    .rs-picker-search-input {
+        font-size: var(--bs-body-font-size) !important;
+    }
+
+    .rs-btn {
+        font-size: var(--bs-body-font-size) !important;
+    }
+
+    .rs-picker-default .rs-picker-toggle.rs-btn {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        width: 100%;
+        /* border-color: rgb(75, 40, 40) !important; */
+    }
+
+    .reqRed{
+        padding-top: 7px;
+        padding-bottom: 7px;
+        width: 333px;
+        border-color: red !important;
+    }
+
+    .rs-picker {
+        width: 100% !important;
+    }
+
+  }
+  
+.btn-logout {
+    color: #757070;
+    background: #ffffff;
+    justify-content: center;
+    text-align: right;
+}
+
+.loading-text {
+    color: #757070;
+    background: #ffffff;
+    justify-content: center;
+    text-align: right;
+}
+
+.loading-icon {
+    color: #757070;
+    background: #ffffff;
+    justify-content: center;
+    text-align: right;
+}
+
+.label-modal-center {
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+}

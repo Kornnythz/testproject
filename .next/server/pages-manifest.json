@@ -1,0 +1,17 @@
+{
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/_app": "pages/_app.js",
+  "/api/ApiService": "pages/api/ApiService.js",
+  "/api/Config": "pages/api/Config.js",
+  "/api/hello": "pages/api/hello.js",
+  "/api/login": "pages/api/login.js",
+  "/api/validateData": "pages/api/validateData.js",
+  "/api/testApi": "pages/api/testApi.js",
+  "/page/ChangePassword": "pages/page/ChangePassword.html",
+  "/page/LoginPage": "pages/page/LoginPage.html",
+  "/": "pages/index.html",
+  "/page/MainPage": "pages/page/MainPage.html",
+  "/user/Users": "pages/user/Users.js",
+  "/404": "pages/404.html"
+}
